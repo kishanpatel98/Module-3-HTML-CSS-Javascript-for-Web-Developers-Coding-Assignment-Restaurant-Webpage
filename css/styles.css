@@ -10,6 +10,7 @@ body {
   background-color: lightyellow;
   border-radius: 0;
   border: 0;
+  height: 135px;
 }
 
 #logo-img {
@@ -22,6 +23,7 @@ body {
 .navbar-brand {
   padding-top: 5px;
   padding-left: 35px;
+  margin-bottom: 5px;
 }
 
 .navbar-brand h1 {
@@ -34,8 +36,30 @@ body {
   font-size: 15px;
   color: lightgreen;
   margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
+}
+
+#nav-list {
+  background-color: lightyellow;
+}
+
+li {
+  border: 1px solid lightblue;
+}
+
+#collapsable-nav {
+  text-align: center;
+}
+
+.menu-header {
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+.menu-content{
+  background: #999999;
+  margin-bottom: 20px;
 }
